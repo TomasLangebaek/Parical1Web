@@ -1,0 +1,528 @@
+.barra {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 2px;
+
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Add a black background color to the top navigation bar */
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  padding: 0;
+
+  overflow: hidden;
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.breadcrumb {
+  position: absolute;
+  width: 520px;
+  height: 32px;
+  left: 99px;
+  top: 114px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.cartas {
+  position: absolute;
+  width: 1240px;
+  height: 0px;
+  left: 100px;
+  top: 159px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.cartas2 {
+  position: absolute;
+  width: 1240px;
+  height: 0px;
+  left: 100px;
+  top: 252px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.detail {
+  position: absolute;
+  width: 1240px;
+  left: 100px;
+  top: 158px;
+  overflow: auto;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.carta {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  width: 1240px;
+  height: 221px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.phone {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  left: 44px;
+  top: 20px;
+  border-radius: 15px;
+}
+
+.phone2 {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  left: 80px;
+  top: 0px;
+  border-radius: 15px;
+}
+
+.price {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 348px;
+  top: 30px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.product_name {
+  position: relative;
+  width: 500px;
+  height: 35px;
+  left: 336px;
+  top: -100px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.city {
+  position: relative;
+  width: 150px;
+  height: 35px;
+  left: 1011px;
+  top: -145px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.green_icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 274px;
+  top: -45px;
+}
+
+.green_icon2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 274px;
+  top: -65px;
+}
+
+.searchContainer {
+  position: absolute;
+  width: 892px;
+  height: 47px;
+  left: 448px;
+  top: 18px;
+  background: #ffffff;
+}
+
+.bigimage {
+  position: relative;
+  width: 563px;
+  height: 520px;
+  left: 50px;
+  top: 54px;
+  border-radius: 15px;
+}
+
+.descriptionTitle {
+  position: relative;
+  width: 312px;
+  height: 31px;
+  left: 80px;
+  top: -20px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.description {
+  position: relative;
+  width: 780px;
+  height: 170px;
+  left: 80px;
+  top: -90px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  background: #ffffff;
+  color: #b8acac;
+}
+
+.UsadosVendidos {
+  position: relative;
+  width: 312px;
+  height: 35px;
+  left: 878px;
+  top: -445px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.product_name_Detail {
+  position: relative;
+  width: 312px;
+  height: 31px;
+  left: 878px;
+  top: -405px;
+  overflow: auto;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.price_Detail {
+  position: relative;
+  width: 312px;
+  height: 33px;
+  left: 878px;
+  top: -379px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.Comprar {
+  position: relative;
+  width: 312px;
+  height: 51px;
+  left: 878px;
+  top: -366px;
+
+  background: #c968cb;
+  border-radius: 20px;
+}
+
+.AnadirFavoritos {
+  position: relative;
+  width: 312px;
+  height: 51px;
+  left: 878px;
+  top: -348px;
+
+  background: #8c86d7;
+  border-radius: 20px;
+}
+
+.textComprar {
+  position: relative;
+  width: 236px;
+  height: 31px;
+  left: 35px;
+  top: 7px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.popUpMessage {
+  position: absolute;
+  width: 578px;
+  height: 364px;
+  left: 486px;
+  top: 359px;
+
+  background: #ffffff;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+
+.popUpName {
+  position: relative;
+  width: 312px;
+  height: 31px;
+  left: 140px;
+  top: 114px;
+  overflow: auto;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.popUpText {
+  position: relative;
+  width: 312px;
+  height: 51px;
+  left: 140px;
+  top: 150px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+hr {
+  width: 97%;
+  position: center;
+}
+
+.division {
+  position: relative;
+  top: 195px;
+  left: 9px;
+}
+
+.close {
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  left: 420px;
+  top: 303px;
+  background: #8c86d7;
+  border-radius: 20px;
+}
+
+.textClose {
+  position: relative;
+  width: 236px;
+  height: 31px;
+  top: 8px;
+  left: -47px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.tituloFavoritos {
+  position: absolute;
+  width: 312px;
+  height: 0px;
+  left: 100px;
+  top: 104px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.FavoriteBar {
+  position: absolute;
+  width: 1240px;
+  height: 89px;
+  left: 100px;
+  top: 163px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.FavoriteBottom {
+  position: relative;
+  left: 980px;
+  top: -188px;
+}
+
+.mediumButton {
+  width: 200px;
+  height: 51px;
+  border-radius: 20px;
+}
+.red {
+  background: #e1677d;
+}
+
+.grey {
+  background: #ece9e9;
+}
+
+.pink {
+  background: #c968cb;
+}
+
+.TopFavoriteBotton {
+  position: relative;
+  left: 100px;
+  top: -5px;
+}
+
+.mediumButtonText {
+  position: relative;
+  width: 236px;
+  height: 30px;
+  left: -16px;
+  top: 15px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.checkContainer {
+  position: relative;
+  top: 34%;
+  left: 51px;
+  width: 20px;
+  height: 20px;
+  background: #c4c4c4;
+}
+.check {
+  position: relative;
+  top: -3px;
+  left: 3.8px;
+}
+
+.checkContainer2 {
+  top: 92;
+  left: 40px;
+}
+
+input {
+  position: relative;
+  width: 792px;
+  height: 30px;
+  left: 9px;
+  top: 5px;
+  bottom: 8px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #d5c9c9;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+button {
+  position: relative;
+  width: 47px;
+  height: 50px;
+  left: 50px;
+  height: 100%;
+  background: #e5e5e5;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+
+#logo {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 100px;
+  top: 8px;
+}
+
+#hearth {
+  position: absolute;
+  width: 44px;
+  height: 40px;
+  left: 1375px;
+  top: 20px;
+}
+
+#search {
+  position: relative;
+  left: 2px;
+  top: 1px;
+}
+body {
+  background: #e5e5e5;
+  margin: 0;
+  font-family: Lato;
+}

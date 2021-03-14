@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Marketplace</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="./images/Rectangle18.png" id="logo" alt="logo" />
+      <div class="searchContainer">
+        <input type="text" placeholder="Filtrar por categoría" id="filter" />
+        <button type="submit" id="submit">
+          <img src="./images/ic_Search@2x1.png" id="search" alt="search" />
+        </button>
+      </div>
+      <div id="fav">
+        <img src="./images/Rectangle21.png" id="hearth" alt="logo" />
+      </div>
+    </div>
+
+    <nav id="breadcrumb">h2</nav>
+
+    <nav id="main" class="container cartas"></nav>
+
+    <nav id="favmenu" class="container">
+      <nav class="container cartas2" id="favlist"></nav>
+    </nav>
+
+    <nav class="container detail" id="detail"></nav>
+
+    <div id="popUp"></div>
+
+    <div id="popUp2"></div>
+    <main>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
